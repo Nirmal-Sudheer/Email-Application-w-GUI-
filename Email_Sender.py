@@ -117,27 +117,7 @@ def validate_message():
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
 root=Tk()
 root.title('Email Application')
 
@@ -157,7 +137,7 @@ entry1.grid( row=1, column=1, pady=5)
 entry2.grid( row=2, column=1)
 
 
-btn1=Button(f1, text='Login', width= 10, bg='black' , fg='white' , command= lambda:login() ) #login function to be coded in
+btn1=Button(f1, text='Login', width= 10, bg='black' , fg='white' , command= lambda:login() ) 
 btn1.grid( row=3, columnspan=3 ,pady=10)
 
 f2=Frame(root)
@@ -167,7 +147,7 @@ label4=Label(f2, width=20 , bg="red" , fg= "cyan" , text="Log  in Success ",font
 label4.grid(row=0, column=0 ,columnspan=2 ,pady=5)
 
 
-btn2=Button(f2,text="Logout", bg="black",fg="white",command=lambda: logout()) #logout function to be coded in
+btn2=Button(f2,text="Logout", bg="black",fg="white",command=lambda: logout())
 btn2.grid(row=0 , column=4 , sticky=E ,pady=10 ,padx=(5,0))
 
 f3=Frame(master=root)
